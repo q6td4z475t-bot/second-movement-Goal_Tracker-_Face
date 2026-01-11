@@ -20,6 +20,9 @@ TINYUSB_CDC=1
 # Now we're all set to include gossamer's make rules.
 include $(GOSSAMER_PATH)/make.mk
 
+# ADD THIS LINE:
+MKDIR := mkdir
+
 # Don't add gossamer's rtc.c since we are using our own rtc32.c
 SRCS := $(filter-out $(GOSSAMER_PATH)/peripherals/rtc.c,$(SRCS))
 
