@@ -2,8 +2,8 @@
 // WATCH_FACE_GOAL_TRACKER (simplified tally face)
 // Counts A and B using long holds on LIGHT and ALARM. 
 
-#include "movement. h"
-#include "watch. h"
+#include "movement.h"
+#include "watch.h"
 #include "goal_tracker_face.h"
 #include <stdio.h>
 #include <stdbool.h>
